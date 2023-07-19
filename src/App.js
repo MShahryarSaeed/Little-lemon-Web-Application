@@ -1,15 +1,18 @@
 // import './App.css';
-import Header from './Header';
+// import Header from './Header';
 import Main from './Main';
-import Footer from './Footer';
+// import Footer from './Footer';
+import SpecialSection from './SpecialSection';
+import Navigation from './Components/Navigation';
 
 
 function App() {
   return (
     <div>
-      <Header />
+      <Navigation />
       <Main/>
-      <Footer/>
+      <SpecialSection/>
+      {/* <Footer/> */}
 
 
     </div>

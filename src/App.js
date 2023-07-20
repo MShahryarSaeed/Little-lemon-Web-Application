@@ -1,9 +1,10 @@
 // import './App.css';
 // import Header from './Header';
 import Main from './Main';
-// import Footer from './Footer';
+import Footer from './Footer';
 import SpecialSection from './SpecialSection';
 import Navigation from './Components/Navigation';
+import About from './Components/About';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Navigation />
       <Main/>
       <SpecialSection/>
-      {/* <Footer/> */}
+      <About/>
+      <Footer/>
 
 
     </div>

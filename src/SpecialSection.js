@@ -7,22 +7,26 @@ const SpecialSection = () => {
             image: require("./assets/greek salad.jpg"),
             heading: "Greek Salad",
             text: "The secret of success in life is to eat what you like and let the food fight it out inside. - Mark Twain",
+            price:"12.00"
         },
         {
             image: require("./assets/greek salad.jpg"),
             heading: "Lemon Desert ",
             text: "The secret of success in life is to eat what you like and let the food fight it out inside. - Mark Twain",
+            price:"10.00"
         },
         {
             image: require("./assets/greek salad.jpg"),
             heading: "Pizza",
             text: "The secret of success in life is to eat what you like and let the food fight it out inside. - Mark Twain",
+            price:"13.00"
         },
     ];
     return (
-        <div className="container-fluid special-items">
+    <section id="menu">
+            <div className="container-fluid special-items">
             <div className="row ">
-                <h2 className="text-center">Special Items</h2>
+                <h2 className="text-center">This Week Special Items</h2>
             </div>
 
             <div className="container">
@@ -33,12 +37,14 @@ const SpecialSection = () => {
                                 image={card.image}
                                 heading={card.heading}
                                 text={card.text}
+                                price={card.price}
                             />
                         </div>
                     ))}
                 </div>
             </div>
         </div>
+    </section>
     );
 };
 

@@ -5,7 +5,7 @@ import '../App.css';
  
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
     <div className="container">
       <Link className="navbar-brand" to="/">
         <img src={Logo} alt="" />
@@ -32,6 +32,16 @@ const Navigation = () => {
             <Link className="nav-link" to="/booking">
               Booking
             </Link>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#menu">
+              Menu
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#about">
+              About
+            </a>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/">

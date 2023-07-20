@@ -5,6 +5,7 @@ import Footer from './Footer';
 import SpecialSection from './SpecialSection';
 import Navigation from './Components/Navigation';
 import About from './Components/About';
+import Testimonial from './Components/Testimonial';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navigation />
       <Main/>
       <SpecialSection/>
+      <Testimonial/>
       <About/>
       <Footer/>
 

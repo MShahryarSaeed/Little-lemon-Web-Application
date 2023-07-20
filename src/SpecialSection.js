@@ -10,13 +10,13 @@ const SpecialSection = () => {
             price:"12.00"
         },
         {
-            image: require("./assets/greek salad.jpg"),
+            image: require("./assets/food3.jpeg"),
             heading: "Lemon Desert ",
             text: "The secret of success in life is to eat what you like and let the food fight it out inside. - Mark Twain",
             price:"10.00"
         },
         {
-            image: require("./assets/greek salad.jpg"),
+            image: require("./assets/food2.jpeg"),
             heading: "Pizza",
             text: "The secret of success in life is to eat what you like and let the food fight it out inside. - Mark Twain",
             price:"13.00"

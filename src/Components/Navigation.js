@@ -8,7 +8,7 @@ const Navigation = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
     <div className="container">
       <Link className="navbar-brand" to="/">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="navbar-logo" />
       </Link>
       <button
         className="navbar-toggler"

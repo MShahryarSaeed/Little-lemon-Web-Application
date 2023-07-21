@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from './assets/restauranfood.jpg';
-import './App.css';
+import Hero from '../assets/restauranfood.jpg';
+import '..//App.css';
 
 const Main = () => {
   return (
